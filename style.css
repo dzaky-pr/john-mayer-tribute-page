@@ -1,0 +1,179 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(228, 228, 228);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mkd-black {
+  background-color: rgb(51, 51, 51);
+}
+
+.mkd-button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: #fff;
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+  cursor: pointer;
+}
+
+.mkd-bar-item {
+  font-weight: bold;
+  font-size: 20px;
+  width: 25%;
+}
+
+.mkd-bar-item:hover {
+  background: #fff;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.mkd-bar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 3;
+}
+
+.mkd-bar .mkd-bar-item{
+  border: none;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+}
+
+.mkd-container {
+  padding: 90px 16px 12px 16px;
+}
+
+.mkd-container-text {
+  padding: 20px 16px 40px 16px;
+}
+
+.mkd-content {
+  margin: auto;
+}
+
+.mkd-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carousel-gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.mkd-title h2 {
+  margin: 0px auto 4px auto ;
+}
+
+.mkd-title p {
+  margin: 4px auto 20px auto;
+}
+
+.mkd-justify {
+  text-align: justify;
+  text-indent: 8%;
+}
+
+.mkd-third {
+  width: 33.33%;
+}
+
+.mkd-gallery {
+  background: rgb(51, 51, 51);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mkd-third p {
+  color: #fff;
+  margin: 30px auto 30px;
+  font-size: 20px;
+}
+
+.markoding {
+  color: #fff;
+}
+
+.markoding a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.markoding a:hover {
+  color: #F1D42F;
+}
+
+.mkd-footer p {
+  margin:  2.5rem auto 1.5rem;
+}
+
+.mkd-max-width {
+  max-width: 600px;
+}
+
+/* Media Query */
+@media (max-width: 1000px){
+  section article img {
+    max-width: 800px;
+  }
+
+  .mkd-third {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .mkd-bar-item {
+  font-size: 16px;
+  }
+
+  .mkd-third p {
+  font-size: 16px;
+  }
+
+  .mkd-third .carousel-gallery {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .mkd-third p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .mkd-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
